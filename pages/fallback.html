@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Off-line</title>
+    <link rel="icon" href="../images/loogo.png" type="image/png">
+    <link rel="stylesheet" href="../css/home.css" type="text/css">
+
+    <link rel="manifest" href="../manifest.json">
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="../images/icons/logo72.png">
+    <link rel="apple-touch-icon" href="../images/icons/logo96.png">
+    <link rel="apple-touch-icon" href="../images/icons/logo128.png">
+    <link rel="apple-touch-icon" href="../images/icons/logo144.png">
+    <link rel="apple-touch-icon" href="../images/icons/logo152.png">
+    <link rel="apple-touch-icon" href="../images/icons/logo192.png">
+    <link rel="apple-touch-icon" href="../images/icons/logo384.png">
+    <link rel="apple-touch-icon" href="../images/icons/logo512.png">
+    <link rel="apple-touch-icon" href="../images/icons/logo1024.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#eae2cf">
+    <meta name="theme-color" content="#301715">
+
+</head>
+
+<body>
+    <section class="home" id="home">
+        <div class="slides-container">
+            <div class="slide active">
+                <div class="content">
+
+                    <span>Off-Line</span>
+                    <h3> You are not connected to the Internet now.</h3>
+                    <p>Please reconnect to the Internet to browse this page.<br>
+                        You can return to the main page now by clicking on this button.
+                    </p>
+                    <button class="btn"><a href="../index.html"> Doroob Almokha</a></button>
+                </div>
+                <div class="image">
+                    <img src="../images/icons/NoWi.png" alt="No Internet Connection">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').then(function(registration) {
+                console.log('Service worker registration succeeded:', registration);
+            }, function(error) {
+                console.log('Service worker registration failed:', error);
+            });
+        } else {
+            console.log('Service workers are not supported.');
+        }
+    </script>
+</body></html>

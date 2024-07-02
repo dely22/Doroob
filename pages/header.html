@@ -1,0 +1,36 @@
+<!-- header section starts  -->
+<section class="them">
+    <img id="im" src="../images/top_wave.png" alt="theam">
+</section>
+<header class="header">
+    <a href="#" class="logo">
+        <img src="../images/lo.png" alt="logo">
+    </a>
+    <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="story.html">Story</a>
+        <a href="product.html">product's</a>
+        <a href="green.html">Green Beans</a>
+        <a href="#Legal">Legal Business</a>
+    </nav>
+
+</header>
+<div id="menu-btn" class="fas fa-bars"></div>
+<!-- header section ends -->
+<script>
+    let menu = document.querySelector('#menu-btn');
+    let header = document.querySelector('.navbar');
+
+    menu.onclick = () => {
+        menu.classList.toggle('fa-times');
+        header.classList.toggle('active');
+    }
+
+    window.onscroll = () => {
+        menu.classList.remove('fa-times');
+        header.classList.remove('active');
+    }
+
+</script>
+<script src="../js/script.js"></script>

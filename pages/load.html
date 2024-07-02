@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Web Designer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Wings</title>
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="../images/Dlogo.png" type="images/png">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/load.css" type="text/css">
+    <link rel="manifest" href="../manifest.json">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="user">
+            <img src="../images/logoo.png" alt="logo">
+            <h1>Digital Wings</h1>
+            <p>web developer</p>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#portfolio">portfolio</a>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <!-- theme toggler  -->
+
+    <div id="theme-toggler" class="fas fa-moon"></div>
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+        <div class="content">
+            <h1>digital wings</h1>
+            <p>I am a full-stack web developer</p>
+        </div>
+
+        <div class="connect">
+            <a href="tel:+967736986465"><i class="fas fa-phone"></i></a>
+            <a href="https://wa.me/message/EEDHPGP4IGESM1"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:digitalwings154@gmail.com"><i class="fa-thin fa-envelope"></i></a>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+        <h1 class="heading"> <span>about</span> me </h1>
+        <div class="row">
+            <div class="box-container">
+                <div class="box">
+                    <h1>2+</h1>
+                    <p>years of experience</p>
+                </div>
+
+                <div class="box">
+                    <h1>190+</h1>
+                    <p>working hours</p>
+                </div>
+
+                <div class="box">
+                    <a href="tel:+967736986465" class="btn"> <i class="fas fa-phone"></i> +967-736-986-465</a>
+                    <a href="mailto:digitalwings154@gmail.com?subject=Mail from Site" class="btn"><i class="fas fa-envelope"></i>digitalwings154@gmail.com</a>
+
+                </div>
+
+            </div>
+
+            <div class="content">
+                <h1>Digital <span>Wings</span></h1>
+                <p>I'm an It Engineer and web programmer works as a free-lancer from
+                    <br> <i class="fas fa-map-marker-alt"></i> Yemen-Taiz.<br>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="progress">
+                <h1> web design <span>90%</span> </h1>
+                <div class="bar bar-1-1"><span></span></div>
+
+                <h1> mysql <span>80%</span> </h1>
+                <div class="bar bar-2-2"><span></span></div>
+
+                <h1> php<span>90%</span> </h1>
+                <div class="bar bar-1-1"><span></span></div>
+            </div>
+
+            <div class="progress">
+                <h1> HTML <span>95%</span> </h1>
+                <div class="bar bar-2-1"><span></span></div>
+
+                <h1> css <span>95%</span> </h1>
+                <div class="bar bar-2-1"><span></span></div>
+
+                <h1> javascript <span>80%</span> </h1>
+                <div class="bar bar-2-2"><span></span></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading"> my <span>services</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h1>front-end design</h1>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-mobile"></i>
+                <h1>PWA. web apps</h1>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-mobile"></i>
+                <h1>responsive design</h1>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h1>back-end design </h1>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- portfolio section starts  -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading"> my <span>portfolio</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="../images/Dlogo.png" alt="logo">
+                <div class="content">
+                    <h1> Soon</h1>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- portfolio section ends -->
+
+
+    <div class="credits"> created by <span>Digital Wings</span> | all rights reserved </div>
+
+
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('../sw.js').then(function(registration) {
+                console.log('Service worker registration succeeded:', registration);
+            }, function(error) {
+                console.log('Service worker registration failed:', error);
+            });
+        } else {
+            console.log('Service workers are not supported.');
+        }
+    </script>
+
+    <!-- custom js file link  -->
+    <script src="../js/script2.js"></script>
+
+</body></html>

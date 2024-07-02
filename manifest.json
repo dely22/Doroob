@@ -1,0 +1,56 @@
+{
+    "name": "DOROOB AL-MOKHA",
+    "short_name": "Doroob Almokha",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#eae2cf",
+    "theme_color": "#301715",
+    "orientation": "portrait-primary",
+    "description": "Buy high-quality coffee beans",
+    "icons": [{
+            "src": "/images/icons/logo72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/images/icons/logo96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/images/icons/logo128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/images/icons/logo144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/images/icons/logo152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/images/icons/logo192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/icons/logo384.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "/images/icons/logo512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/images/icons/logo1024.png",
+            "type": "image/png",
+            "sizes": "1024x1024"
+        }
+    ]
+}
